@@ -1,0 +1,6 @@
+cinst au / import-module au
+edit chocolateyinstall.ps1
+edit update.ps1, test in powershell
+$au_force = $true
+.\update.ps1
+TestPackage
